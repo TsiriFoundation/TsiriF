@@ -1,0 +1,375 @@
+
+
+
+<!DOCTYPE html>
+
+<html lang="en">
+<head><title>
+	UL-Trust
+</title>
+    <!-- Meta -->
+    <meta charset="utf-8" /><meta http-equiv="X-UA-Compatible" content="IE=edge" /><meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="description" /><link rel="shortcut icon" href="favicon.ico" /><link href="//fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet" type="text/css" />   
+    <!-- Global CSS -->
+    <link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.min.css" />   
+    <!-- Plugins CSS -->    
+    <link rel="stylesheet" href="assets/plugins/font-awesome/css/font-awesome.css" /><link rel="stylesheet" href="assets/plugins/owl-carousel/owl.carousel.css" />
+    <!-- Main CSS -->  
+    <link rel="stylesheet" href="assets/css/main.css" /><link rel="stylesheet" href="assets/css/responsive.css" />
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+    <div id="fb-root"></div>
+    <script>(function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.4";
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
+        <header role="banner" class="masthead">
+            <div class="top-bar">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xs-12">
+                            <ul>
+                                <li><a href="About.aspx">About</a></li>
+                                <li><a href="news.aspx">News</a></li>
+                                <li><a href="contact.aspx">Contact</a></li>
+                                
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="search-wrapper">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-10 col-sm-10 col-xs-8">
+                                <input class="form-control" type="text" value="" placeholder="Search">
+                            </div>
+                            <div class="col-md-2 col-sm-2 col-xs-4">
+                                <input class="btn" type="button" value="Search">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="sub-bar">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-8 col-md-8">
+                            <a href="Default.aspx" class="brand"><img src="images/university-of-limpopo-trust-logo.png" alt="University of Limpopo Trust" class="img-responsive"></a>
+                        </div>
+                        <div class="col-sm-4 col-md-4 text-center">
+                            <a href="Donate.aspx" class="btn">Donate Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <nav class="navbar navbar-default navbar-static-top">
+              <div class="container">
+                <div class="navbar-header">
+                  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                  </button>
+                </div>
+                <div id="navbar" class="navbar-collapse collapse">
+                  <ul class="nav navbar-nav">
+                    <li><a href="Caseforsupport.aspx">Case For Support</a></li>
+                    <li><a href="Projects.aspx">Our Work</a></li>
+                    <li><a href="Donate.aspx">How to Give</a></li>
+                  </ul>
+                  
+                </div><!--/.nav-collapse -->
+              </div>
+            </nav>
+        </header>
+        
+        
+    <script src="assets/plugins/jquery-1.11.2.min.js"></script>
+    <div class="content container">
+        <div class="page-wrapper">
+            <header class="page-heading clearfix">
+                <h1 class="heading-title pull-left">Donate</h1>
+                <div class="breadcrumbs pull-right">
+                    <ul class="breadcrumbs-list">
+                        <li class="breadcrumbs-label">You are here:</li>
+                        <li><a href="Default.aspx">Home</a><i class="fa fa-angle-right"></i></li>
+                        <li class="current">Donate</li>
+                    </ul>
+                </div>
+                <!--//breadcrumbs-->
+            </header>
+            <div class="page-content">
+                <div class="row">
+                    <article class="contact-form col-md-7 col-sm-7 page-row">
+                        <h3 class="title">Donation Amount</h3>
+                        <div style="margin-bottom: 70px;">
+							<p id="donateerror" style="color:red;display:none;">Please select or enter an amount to donate.</p>
+                            <div class="col-md-3 no-padding-left"><a href="javascript:void(0)" class="btn btn-amount amountselected" data-id="100">R100</a></div>
+                            <div class="col-md-3 no-padding-left"><a href="javascript:void(0)" class="btn btn-amount amountselected" data-id="250">R250</a></div>
+                            <div class="col-md-3 no-padding-left"><a href="javascript:void(0)" class="btn btn-amount amountselected" data-id="500">R500</a></div>
+                            <div class="col-md-3 no-padding-left"><a href="javascript:void(0)" class="btn btn-amount amountselected" data-id="1000">R1000</a></div>
+                            <div class="col-md-12 no-padding-left"  style="margin-bottom: 40px;">
+								<label for="amount">Own Amount</label>
+								<div class="input-group">
+									<div class="input-group-addon">R</div>
+									<input id="amount" type="text" class="form-control" placeholder="Enter you own amount">
+									<input type="hidden" id="donateamount" value="0" />
+								</div>
+                            </div>
+                        </div>
+                        <h3 class="title">Your Information</h3>
+                        <div class="form-group name">
+                            <label for="name">Name</label>
+                            <input id="name" type="text" class="form-control donate" placeholder="Enter your name">
+                        </div>
+                        <div class="form-group">
+                            <label for="surname">Surname</label>
+                            <input id="surname" type="text" class="form-control donate" placeholder="Enter your surname">
+                        </div>
+                        <div class="form-group email">
+                            <label for="email">Email</label>
+                            <input id="email" type="email" class="form-control donate" placeholder="Enter your email">
+                        </div>
+                        <div class="form-group phone">
+                            <label for="phone">Phone</label>
+                            <input id="phone" type="tel" class="form-control donate" placeholder="Enter your contact number">
+                        </div>
+                        <div class="form-group message">
+                            <label for="message">Message</label>
+                            <textarea id="message" class="form-control donate" rows="6" placeholder="Enter your message here..."></textarea>
+                        </div>
+                        <!-- VCS payment form -->
+                        <form method="POST" action="https://www.vcs.co.za/vvonline/vcspay.aspx" id="frmVCS">
+<div class="aspNetHidden">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="aYbMu/DdeJ28c9L4xXGqvQwU76u8D2sqwNOif7M2400l/w2/KMAf61JUKG+w0FWrErNwY+tdqJqFq3h0xnXx9sfM4ezkIreakv3qZMs0Ydk=" />
+</div>
+
+<div class="aspNetHidden">
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="FF507052" />
+</div>
+                            <!--Terminal Id-->
+                            <input type="hidden" name="p1" value="6530" />
+                            <!--Transaction Ref-->
+                            <input type="hidden" name="p2" value="0" />
+                            <!--Description of goods-->
+                            <input type="hidden" name="p3" value="donation" />
+                            <!--Amount-->
+                            <input type="hidden" name="p4" value="0" />
+                            <!--Cardholder Email-->
+                            <input type="hidden" name="CardholderEmail" value="dawie77@gmail.com" />
+                            <input type="submit" class="btn btn-theme" value="Donate" />
+                        </form>
+                        <!-- End of VCS payment form -->
+                        <br />
+                        <br />
+                    </article>
+                    <aside class="page-sidebar col-md-4 col-md-offset-1 col-sm-4 col-sm-offset-1">
+                       
+                    </aside>
+                    <!--//page-sidebar-->
+                </div>
+                <!--//page-row-->
+            </div>
+            <br />
+            <br />
+            <!--//page-content-->
+        </div>
+        <!--//page-wrapper-->
+    </div>
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            var ip = "";
+
+            $('#frmVCS').on('submit', function (e) {
+                e.preventDefault();
+                e.returnValue = false;
+                var isValid = true;
+                var amountSelected = true;
+
+                $('.donate').each(function () {
+                	if ($(this).val().length == 0) {
+                		$(this).parent().addClass('has-error');
+                		isValid = false;
+                	}
+                });
+
+                if ($('#donateamount').val() == 0) {
+                	amountSelected = false;
+                	$('#donateerror').show();
+                	$('html, body').animate({
+						scrollTop: $('.amountselected').eq(0).offset().top - 150
+                	}, 500);
+                }
+
+                if (isValid && amountSelected) {
+                	var n = $('#name').val();
+                	var s = $('#surname').val();
+                	var e = $('#email').val();
+                	var p = $('#phone').val();
+                	var a = $('#donateamount').val();
+                	var m = $('#message').val();
+
+                	$.getJSON('http://jsonip.com/?callback=?', function (data) {
+                		$.ajax({
+                			type: 'POST',
+                			url: 'Donate.aspx/MakeDonation',
+                			data: '{name: ' + JSON.stringify(n) + ', surname: ' + JSON.stringify(s) + ', email: ' + JSON.stringify(e) + ', phone: ' + JSON.stringify(p) + ', amount: ' + JSON.stringify(a) + ', message: ' + JSON.stringify(m) + ', location: ' + JSON.stringify(data.ip) + '}',
+                			contentType: 'application/json; charset=utf-8',
+                			dataType: 'json',
+                			complete: function (data) {
+                				$('#frmVCS').off('submit');
+
+                				$('input[name="p2"]').val(data.responseJSON.d[0]);
+                				$('input[name="p4"]').val(data.responseJSON.d[1]);
+
+                				$('#frmVCS').submit();
+                			}
+                		});
+                	});
+                }
+            });
+
+            $('.donate').on('blur', function () {
+            	if ($(this).val().length == 0) {
+            		$(this).parent().addClass('has-error');
+            	} else {
+            		$(this).parent().removeClass('has-error');
+            	}
+            });
+
+            $('#amount').on('keypress', function (e) {
+            	if (e.which != 8 && e.which != 0 && (e.which < 48 || e.which > 57)) {
+            		return false;
+            	}
+            });
+
+            $('#amount').on('focus', function () {
+            	$('.amountselected').removeClass('aselected');
+            	$('#donateamount').val(0);
+            });
+
+            $('#amount').on('blur', function () {
+            	if ($(this).val().length > 0) {
+            		$('#donateamount').val($(this).val());
+            		$('#donateerror').hide();
+            	}
+            });
+
+            $('.amountselected').on('click', function () {
+            	$('#amount').val('');
+            	$('.amountselected').removeClass('aselected');
+            	$(this).addClass('aselected');
+            	$('#donateamount').val($(this).attr('data-id'));
+            	$('#donateerror').hide();
+            });
+        });
+    </script>
+
+
+        <footer role="contentinfo">
+            <div class="footer-top">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-6 col-md-3">
+                            <span class="footer-title">
+                            Sitemap
+                            </span>
+                            <ul class="footer-links">
+                                <li><a href="/About.aspx">About</a></li>
+                                <li><a href="/news.aspx">News</a></li>
+                                <li><a href="/Projects.aspx">Our Work</a></li>
+                                <li><a href="/Donate.aspx">Ways to take action</a></li>
+                                <li><a href="/contact.aspx">Contact</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-sm-6 col-md-3">
+                            <span class="footer-title">
+                            Contact us
+                            </span>
+                            <ul class="footer-detail">
+                                <li>
+                                    <strong><i class="fa fa-map-marker"></i></strong>
+                                    <span>
+                                        Old Admin Building,<br />
+                                        University of Limpopo<br />
+                                        Turfloop Campus<br />
+                                        Mankweng<br />
+                                        Polokwane
+                                    </span>
+                                </li>
+                            </ul>
+                        </div><div class="col-sm-6 col-md-3">
+                            <span class="footer-title">
+                            &nbsp;
+                            </span>
+                            <ul class="footer-detail">
+                                <li style="padding: 0 0 5px 0!important;">
+                                    <strong><i class="fa fa-phone"></i></strong>
+                                    <span>
+                                        +27 15 268 3692
+                                    </span>
+                                </li>
+								<li style="padding: 0 0 5px 0!important;">
+                                    <strong><i class="fa fa-phone"></i></strong>
+                                    <span>
+                                        +27 11 512 0859
+                                    </span>
+                                </li>
+                                <li>
+                                    <strong><i class="fa fa-envelope"></i></strong>
+                                    <span>
+                                        <a href="mailto:info@ultrust.co.za">info@ultrust.co.za</a>
+                                    </span>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-sm-6 col-md-3">
+                            <span class="footer-title">
+                            Connect with us
+                            </span>
+                            <ul class="social-list">
+                                
+                                <li><a href="https://twitter.com/ulvarsity" target="_blank"><i class="fa fa-twitter-square"></i></a></li>
+                            </ul>
+                            
+                        </div>
+                       
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-6">
+                            Copyright &copy; <span class="copyright-year"></span> University of Limpopo Trust
+                        </div>
+                        <div class="col-sm-6">
+                            <span class="site-by">Website by <a href="http://www.warpdevelopment.co.za/">Warp Development</a></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    <script src="assets/plugins/jquery-1.11.2.min.js"></script>
+    <script src="assets/plugins/jquery-migrate-1.2.1.min.js"></script>
+    <script src="assets/plugins/bootstrap/js/bootstrap.min.js"></script> 
+    <script src="assets/plugins/jquery-bxslider/jquery.bxslider.min.js"></script>
+    <script src="assets/plugins/owl-carousel/owl.carousel.min.js"></script>
+    <script src="assets/plugins/jquery-placeholder/jquery.placeholder.js"></script>
+    <script src="js/main.js"></script>
+	<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=true"></script>
+	<script src="js/map.js"></script>
+	<script src="assets/plugins/gmaps/gmaps.js"></script>
+	
+</body>
+</html>

@@ -1,0 +1,289 @@
+
+
+
+
+
+
+@media only screen and (max-width: 1300px) {
+    .logo{
+        padding-left: 5px;
+    }
+    .slide img {
+        width: 100%;
+        height: 100%;
+        padding-top: 10px;
+      }
+
+      header .navbar ul li a{
+        font-size: 15px;
+        padding: 10px;
+        color: rgb(0, 0, 0);
+        display: block;
+    }
+
+   
+
+}
+
+@media only screen and (max-width: 1180px) {
+    .logo{
+        padding-left: 5px;
+    }
+    .slide img {
+        width: 100%;
+        height: 100%;
+        padding-top: 10px;
+      }
+
+      header .navbar ul li a{
+        font-size: 15px;
+       
+        color: rgb(0, 0, 0);
+        display: block;
+    }
+
+   
+
+}
+
+
+
+@media only screen and (max-width: 1045px) {
+    .logo{
+        padding-left: 5px;
+    }
+   
+
+   header .logo{
+   
+    font-size: 20px;
+   
+}
+
+
+header .navbar ul li a{
+    font-size: 15px;
+  
+    color: rgb(0, 0, 0);
+    display: block;
+}
+
+.slide img {
+    width: 100%;
+    height: 100%;
+    padding-top: 10px;
+  }
+
+header .navbar ul li a:hover{
+    background: #263459;
+    color:white;
+}
+header .navbar ul li ul{
+    position:absolute;
+    left:0;
+    width:200px;
+    background: #000000;
+    display: none;
+}
+
+
+   
+
+}
+
+
+@media only screen and (max-width: 1000px) {
+    .menu-icon{
+        display: block;
+      }
+   header label{
+    display: initial;
+   }
+
+   header .navbar{
+    position: absolute;
+    top:100%; left:0; right:0;
+    background:rgb(255, 255, 255);
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    display: none;
+    
+   }
+  
+   header .navbar ul li{
+    width: 100%;
+
+   }
+   header .navbar ul li ul{
+    position:relative;
+    width:100%;
+   
+
+}
+
+header .navbar ul li ul li ul{
+    width:100%;
+    left:0;
+}
+#menu-bar:checked ~.navbar{
+    display: initial;
+}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 1300px) {
+    .logo{
+        padding-left: 5px;
+    }
+    .slide img {
+        width: 100%;
+        height: 100%;
+        padding-top: 10px;
+      }
+
+      header .navbar ul li a{
+        font-size: 15px;
+        padding: 10px;
+        color: #263459;
+        display: block;
+    }
+
+   
+
+}
+
+@media only screen and (max-width: 1180px) {
+    .heading{
+        padding-left: 5px;
+    }
+    .maindiv img {
+        width: 100%;
+        height: 100%;
+        padding-top: 10px;
+      }
+
+      header .navbar ul li a{
+        font-size: 15px;
+       
+        color:#263459;
+        display: block;
+    }
+
+   
+
+}
+
+
+
+@media only screen and (max-width: 1045px) {
+    .heading{
+        padding-left: 5px;
+    }
+   
+
+ .heading{
+   
+    font-size: 20px;
+   
+}
+
+
+ .navbar ul li a{
+    font-size: 15px;
+  
+    color: #263459;
+    display: block;
+}
+
+.maindiv img {
+    width: 100%;
+    height: 100%;
+    padding-top: 10px;
+  }
+
+ .navbar ul li a:hover{
+    background: #263459;
+    color:white;
+}
+ .navbar ul li ul{
+    position:absolute;
+    left:0;
+    width:200px;
+    background: #000000;
+    display: none;
+}
+
+
+   
+
+}
+
+
+@media only screen and (max-width: 1000px) {
+    
+   svg{
+    display: initial;
+   }
+
+   .navbar{
+    position: absolute;
+    top:100%; left:0; right:0;
+    background:white;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    display: none;
+    
+   }
+  
+   .navbar ul li{
+    width: 100%;
+
+   }
+   .navbar ul li ul{
+    position:relative;
+    width:100%;
+   
+
+}
+
+.navbar ul li ul li ul{
+    width:100%;
+    left:0;
+}
+#side-menu .side-nav :checked ~.navbar{
+    display: initial;
+}
+
+
+}

@@ -1,0 +1,131 @@
+
+#wrapper  p{
+  font-family: "Times New Roman", Times, serif;
+}
+#sec1{
+	margin-top:20px;
+	margin-bottom:20px;
+	padding:10px 10px 10px 10px;
+	margin-left:350px;
+	background: grey;
+	
+}
+#sec1 h2{
+	text-align:center;
+}
+
+* {
+  box-sizing: border-box;
+}
+.w3-third{
+	 float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+.row{
+	margin-top:20px;
+	background:#dedcdb;
+	padding:10px 10px 10px 10px;
+}
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.row p{
+	text-align:center;
+}
+footer {
+	margin-top:80px;
+  text-align: center;
+  padding:10px;
+  background-color: #dedcdb;
+  color: white;
+  height:150px;
+}
+footer a{
+	margin-bottom:25px;
+}
+
+
+
+
+
+
+header{
+    position: fixed;
+    top:0;left:0;right:0;
+    background: #000000;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+    padding: 0px 7%;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000 ;
+}
+header .logo{
+    font-weight: bolder;
+    font-size: 25px;
+    color: antiquewhite;
+}
+header .navbar ul{
+    list-style: none;
+}
+header .navbar ul li{
+    position: relative;
+    float: left;
+
+}
+
+header .navbar ul li a{
+    font-size: 20px;
+    padding: 20px;
+    color: aqua;
+    display: block;
+}
+
+header .navbar ul li a:hover{
+    background: gray;
+    color:#fff;
+}
+header .navbar ul li ul{
+    position:absolute;
+    left:0;
+    width:200px;
+    background: #000000;
+    display: none;
+}
+
+
+header .navbar ul li ul li{
+    width:100%;
+    border-top: 1px solid  rgba(0,0,0,.1);
+
+}
+
+header .navbar ul li ul li ul{
+    left:200px;
+    top:0;
+}
+header .navbar ul li:focus-within > ul,
+header .navbar ul li:hover > ul{
+    display: initial;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    padding: 8px 16px; /* Adjusted padding to reduce vertical space */
+    text-decoration: none;
+    color: white;
+    line-height: 1; /* Reduces line-height to minimize vertical space */
+}
+
+.logo img {
+    margin-right: 10px;
+    width: 80px; /* Adjust the width as needed */
+    height: 50px; /* Adjust the height as needed */
+}
+
+

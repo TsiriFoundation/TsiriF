@@ -1,0 +1,176 @@
+
+ <!DOCTYPE html>
+ <html>
+ <head>
+ <title>
+	Tsiri Foundation
+ </title>
+ <link rel="stylesheet" type="text/css" href="styling.css" />
+ <link rel="stylesheet" type="text/css" href="mobile.css">
+ <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+ </head>
+ <body>
+ <style type="text/css">
+  body {
+			background-color: #fffdfd ;
+;
+		  }
+		  
+		  .container {
+			display: flex;
+			justify-content: space-between;
+			align-items: left;
+			margin: 0 auto;
+			width: 100%;
+			height: 85vh;
+			background-color:  #fffdfd;
+			color: rgb(236, 230, 230);
+			font-family: Arial, sans-serif;
+		  }
+		  .contact-details {
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: left;
+			width: 40%;
+			/* height: 80%; */
+		  }
+		  .contact-details h2 {
+			font-size: 2rem;
+			margin-bottom: 1rem;
+			color: #263459;
+		  }
+		  .contact-details ul {
+			list-style: none;
+			margin: 0;
+			padding: 0;
+		  }
+		  .contact-details li {
+			margin-bottom: 1rem;
+			color: #263459;
+		  }
+		  .contact-details i {
+			margin-right: 1rem;
+		  }
+		  .form-container {
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: left;
+			width: 100%;
+			/* height: 80%; */
+		  }
+		  .form-container h2 {
+			font-size: 2rem;
+			margin-bottom: 1rem;
+			color: #263459;
+		  }
+		  .form-container form {
+			display: flex;
+			flex-direction: column;
+			width: 60%;
+		  }
+		  .form-container input, textarea {
+			border-radius: 5px;
+			margin-bottom: 1rem;
+			padding: 0.5rem;
+			border: 1px solid #ccc;
+			outline: none;
+		  }
+		  .form-container button {
+			padding: 15px 30px;
+			font-size: 16px;
+			/* background-color: aqua; */
+			color: black;
+			background: linear-gradient(270deg,aqua,aquamarine);
+			border-radius: 50px;
+			border: none;
+			cursor: pointer;
+		  }
+</style>
+<!--drawing a menu icon-->
+<header>
+		<div href="#" class ="logo">
+		  <img src="logo.jpg" alt="TsiriFoundation"  />
+		  Tsiri Foundation
+		</div>
+		<input type="checkbox" id="menu-bar" />
+		<label for="menu-bar" class="menu-icon">
+		  <img src="bars.svg" alt="menu icon" style = "width: 40px; height:40px" />
+		</label>
+		<nav class = "navbar">
+		  <ul>
+			<li><a href = "index.html" style="text-decoration: none;">Home</a></li>
+			<li><a href = "AboutUs.html" style="text-decoration: none;">About us</a></li>	
+			<li><a href = "Contact.html" style="text-decoration: none;">Contact</a></li>
+			<li><a href = "Events.html" style="text-decoration: none;">Events</a></li>			
+            <li><a href="https://www.outvest.co.za/crowdvest/life-changer" style="text-decoration: none;" target="_blank">Donate</a></li>
+		  </ul>
+  
+  
+  
+		</nav>
+  
+	  </header>
+
+ 
+    
+   
+	
+		<div class="container">
+		  <div class="contact-details">
+			<h2>Contact Details</h2>
+			<ul>
+			  <li><i class="fas fa-map-marker-alt"></i>85J Phiri Street, Madiba Park, Seshego, Limpopo</li>
+			  <li class = "lowercase"><i class="fas fa-envelope"></i>tsirifoundation@gmail.com</li>
+			  <li><i class="fas fa-phone"></i>+27 64 825 4468</li>
+			  <li><i class="fas fa-clock"></i>Mon-Sun, 8am-5pm</li>
+			</ul>
+		  </div>
+		  <div class="form-container">
+			<h2 align="center">Contact Form</h2>
+			<form action="https://api.web3forms.com/submit" method="POST">
+			  <input type="hidden" name="access_key" value="cc15dbb0-5b45-4b6b-844d-77a0399d275f">
+			  <input type="email" name="email" placeholder="Your email" required>
+			  <input type="text" name="name" placeholder="Your name" required>
+			  <input type="tel" name="phone" placeholder="Your phone number" required>
+			  <textarea name="message" rows="5" placeholder="Your message" required></textarea>
+			  <button type="submit" name = "save" value="Submit">Send</button>
+			</form>
+		  </div>
+		</div>
+	 
+	  
+	  
+
+       
+		<footer style="background-color: rgb(11, 11, 11); display: flex; align-items: center; padding-bottom: 10px; margin-top: 0; overflow: auto; width: 100%; ">
+			
+
+			<div style="color: whitesmoke; margin-right: 10px;">
+				
+				<div style="display: flex; align-items: center; margin: 0;">
+					
+					<p style="margin: 0;">Copyright &copy; ME All Rights Reserved | Developed by: Tsiri NM</p>
+				</div>
+			</div>
+			
+			<div class="social" style="margin: 0; padding-bottom: 20px;">
+				
+					
+				li><a href="https://www.facebook.com/people/Tsiri-Foundation/100086082963009/" target="_blank"><img src="facebook.svg" alt="Facebook" width=45px height=45px /></a></li>
+				<li><a href="#"><img src="x-twitter.svg" alt="Twitter" width=45px height=45px /></a></li>
+				<li><a href="#"><img src="instagram.svg" alt="Instergram" width=45px height=45px /></a></li>
+				</a>
+			</div>
+			
+		</footer>
+ </body>
+ </html>
